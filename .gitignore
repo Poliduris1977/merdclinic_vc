@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+logs/
+# данные генерируются скриптами (run_all.py), в репозиторий не кладём
+data/raw/
+data/dirty/
+data/dirty_v2/
+data/corrected/
+data/output*/
+# ключ ответов нельзя показывать агенту: хранить отдельно
+data/answer_key*/
+data/agent_reports/
+.env
